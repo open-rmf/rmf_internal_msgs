@@ -35,10 +35,11 @@ set(msg_files
   "msg/ItineraryErase.msg"
   "msg/ItineraryExtend.msg"
   "msg/ItinerarySet.msg"
-  "msg/MirrorWakeup.msg"
+  "msg/MirrorUpdate.msg"
   "msg/ParticipantDescription.msg"
   "msg/Profile.msg"
   "msg/Region.msg"
+  "msg/RequestChanges.msg"
   "msg/Route.msg"
   "msg/ScheduleChangeAdd.msg"
   "msg/ScheduleChangeCull.msg"
@@ -71,7 +72,6 @@ set(msg_files
 )
 
 set(srv_files
-  "srv/MirrorUpdate.srv"
   "srv/RegisterQuery.srv"
   "srv/UnregisterQuery.srv"
   "srv/RegisterParticipant.srv"
