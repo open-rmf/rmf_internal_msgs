@@ -63,8 +63,6 @@ set(msg_files
   "msg/ScheduleQuery.msg"
   "msg/ScheduleQueryParticipants.msg"
   "msg/ScheduleQuerySpacetime.msg"
-  "msg/ScheduleRegister.msg"
-  "msg/ScheduleUpdateParticipant.msg"
   "msg/ScheduleWriterItem.msg"
   "msg/Shape.msg"
   "msg/ShapeContext.msg"
