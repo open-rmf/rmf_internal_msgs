@@ -29,6 +29,8 @@ set(msg_files
   "msg/DockParameter.msg"
   "msg/Dock.msg"
   "msg/DockSummary.msg"
+  "msg/LaneRequest.msg"
+  "msg/ClosedLanes.msg"
 )
 
 set(srv_files
