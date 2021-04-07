@@ -1,11 +1,4 @@
 
-uint64[] unregister_participants
-
-ScheduleRegister[] register_participants
-
-# Changes in the participants footprint and description
-ScheduleUpdateParticipant[] updated_footprints
-
 # The changes to the schedule, grouped into the different participants
 ScheduleParticipantPatch[] participants
 
@@ -13,4 +6,6 @@ ScheduleParticipantPatch[] participants
 # making this a single field instead of a dynamic array.
 ScheduleChangeCull[] cull
 
+bool has_base_version
+uint64 base_version
 uint64 latest_version
