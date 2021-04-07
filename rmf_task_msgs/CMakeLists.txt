@@ -40,6 +40,7 @@ set(msg_files
 set(srv_files
   "srv/SubmitTask.srv"
   "srv/CancelTask.srv"
+  "srv/ReviveTask.srv"
   "srv/GetTaskList.srv"
 )
 
