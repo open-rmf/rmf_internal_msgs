@@ -1,4 +1,4 @@
-# Changelog for package rmf_task_msgs
+## Changelog for package rmf_task_msgs
 
 1.3.0 (2021-XX-XX)
 ------------------
