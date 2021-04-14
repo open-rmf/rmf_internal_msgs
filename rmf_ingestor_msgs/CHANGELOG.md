@@ -1,6 +1,4 @@
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package rmf_ingestor_msgs
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+## Changelog for package rmf_ingestor_msgs
 
 1.0.0 (2020-06-23)
 ------------------
