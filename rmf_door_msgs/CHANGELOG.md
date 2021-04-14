@@ -1,6 +1,4 @@
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package rmf_door_msgs
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# Changelog for package rmf_door_msgs
 
 1.1.0 (2020-09-24)
 ------------------

@@ -1,6 +1,4 @@
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package rmf_dispenser_msgs
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# Changelog for package rmf_dispenser_msgs
 
 1.1.0 (2020-09-24)
 ------------------
