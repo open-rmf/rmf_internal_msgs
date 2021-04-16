@@ -8,7 +8,15 @@ coverage:
         informational: true
     patch: off
 fixes:
-  - "ros_ws/src/*/rmf_internal_msgs/::"
+  - "ros_ws/src/*/rmf_charger_msgs/::"
+  - "ros_ws/src/*/rmf_dispenser_msgs/::"
+  - "ros_ws/src/*/rmf_door_msgs/::"
+  - "ros_ws/src/*/rmf_fleet_msgs/::"
+  - "ros_ws/src/*/rmf_ingestor_msgs/::"
+  - "ros_ws/src/*/rmf_lift_msgs/::"
+  - "ros_ws/src/*/rmf_task_msgs/::"
+  - "ros_ws/src/*/rmf_traffic_msgs/::"
+  - "ros_ws/src/*/rmf_workcell_msgs/::"
 comment:
   layout: "diff, flags, files"
   behavior: default
