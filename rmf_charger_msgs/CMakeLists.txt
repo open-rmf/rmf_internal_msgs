@@ -25,7 +25,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ChargerRequest.msg"
   "msg/ChargerCancel.msg"
   DEPENDENCIES builtin_interfaces
- )
+)
 
 
 if(BUILD_TESTING)
