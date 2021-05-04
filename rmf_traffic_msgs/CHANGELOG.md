@@ -1,9 +1,9 @@
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package rmf_traffic_msgs
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+## Changelog for package rmf_traffic_msgs
 
 1.3.0 (2021-XX-XX)
 ------------------
+* Add an itinerary_version field: [#10](https://github.com/open-rmf/rmf_internal_msgs/pull/10)
+* Use topics to update schedule mirrors: [#6](https://github.com/open-rmf/rmf_internal_msgs/pull/6)
 * Add persistence to Traffic Schedule Participant IDs: [#242](https://github.com/osrf/rmf_core/pull/242)
 
 1.2.0 (2021-01-05)

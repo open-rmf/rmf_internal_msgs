@@ -35,10 +35,11 @@ set(msg_files
   "msg/ItineraryErase.msg"
   "msg/ItineraryExtend.msg"
   "msg/ItinerarySet.msg"
-  "msg/MirrorWakeup.msg"
+  "msg/MirrorUpdate.msg"
   "msg/ParticipantDescription.msg"
   "msg/Profile.msg"
   "msg/Region.msg"
+  "msg/RequestChanges.msg"
   "msg/Route.msg"
   "msg/ScheduleChangeAdd.msg"
   "msg/ScheduleChangeCull.msg"
@@ -53,6 +54,8 @@ set(msg_files
   "msg/NegotiationRefusal.msg"
   "msg/NegotiationRejection.msg"
   "msg/NegotiationRepeat.msg"
+  "msg/Participant.msg"
+  "msg/Participants.msg"
   "msg/ScheduleInconsistency.msg"
   "msg/ScheduleInconsistencyRange.msg"
   "msg/ScheduleParticipantPatch.msg"
@@ -60,7 +63,6 @@ set(msg_files
   "msg/ScheduleQuery.msg"
   "msg/ScheduleQueryParticipants.msg"
   "msg/ScheduleQuerySpacetime.msg"
-  "msg/ScheduleRegister.msg"
   "msg/ScheduleWriterItem.msg"
   "msg/Shape.msg"
   "msg/ShapeContext.msg"
@@ -71,7 +73,6 @@ set(msg_files
 )
 
 set(srv_files
-  "srv/MirrorUpdate.srv"
   "srv/RegisterQuery.srv"
   "srv/UnregisterQuery.srv"
   "srv/RegisterParticipant.srv"
