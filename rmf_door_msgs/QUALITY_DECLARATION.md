@@ -27,7 +27,7 @@ All message definition files located the `msg` directory are considered part of 
 
 ### ABI Stability Within a Released ROS Distribution [1.v]/[1.vi]
 
-`rmf_door_msgs` does not contain any C or C++ code and therefore will not affect ABI stability.
+`rmf_door_msgs` will not break public ABI within a major version number.
 
 ## Change Control Process [2]
 
@@ -39,7 +39,7 @@ All message definition files located the `msg` directory are considered part of 
 
 ### Contributor Origin [2.ii]
 
-`rmf_door_msgs` does not require a confirmation of contributor origin.
+`rmf_door_msgs` uses DCO as its confirmation of contributor origin policy. More information can be found in [CONTRIBUTING](../CONTRIBUTING.md).
 
 ### Peer Review Policy [2.iii]
 
