@@ -8,6 +8,9 @@ string task_id
 
 TaskProfile task_profile
 
+# current task phases
+Phase[] phases
+
 uint32 state
 uint32 STATE_QUEUED=0
 uint32 STATE_ACTIVE=1
