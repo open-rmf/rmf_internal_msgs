@@ -35,6 +35,7 @@ set(msg_files
   "msg/DispatchRequest.msg"
   "msg/DispatchAck.msg"
   "msg/Priority.msg"
+  "msg/PhaseTier.msg"
   "msg/Phase.msg"
 )
 
