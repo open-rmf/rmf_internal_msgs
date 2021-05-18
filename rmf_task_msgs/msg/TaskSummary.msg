@@ -8,8 +8,9 @@ string task_id
 
 TaskProfile task_profile
 
-# current task phases
-Phase[] phases
+# current phase tiers
+# phase tier sequence is indexed from highest to lowest level
+PhaseTier[] tiers
 
 uint32 state
 uint32 STATE_QUEUED=0
