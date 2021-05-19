@@ -29,6 +29,8 @@ set(msg_files
   "msg/Circle.msg"
   "msg/ConvexShape.msg"
   "msg/ConvexShapeContext.msg"
+  "msg/FailOverEvent.msg"
+  "msg/Heartbeat.msg"
   "msg/Itinerary.msg"
   "msg/ItineraryClear.msg"
   "msg/ItineraryDelay.msg"
@@ -77,6 +79,7 @@ set(srv_files
   "srv/UnregisterQuery.srv"
   "srv/RegisterParticipant.srv"
   "srv/UnregisterParticipant.srv"
+  "srv/TestReconnect.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
