@@ -1,6 +1,6 @@
 ## Changelog for package rmf_traffic_msgs
 
-1.3.0 (2021-XX-XX)
+1.3.0 (2021-05-27)
 ------------------
 * Add an itinerary_version field: [#10](https://github.com/open-rmf/rmf_internal_msgs/pull/10)
 * Use topics to update schedule mirrors: [#6](https://github.com/open-rmf/rmf_internal_msgs/pull/6)
