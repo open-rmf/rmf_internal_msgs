@@ -5,11 +5,28 @@ string title
 # Detailed description of the phase - Optional
 string description
 
-# if the duration field below is valid
-bool has_duration
+###########################################################################
+# Time report of the phase
 
-# pending phase: Expected total duration of the phase
-# active phase: Expected remaining time in the phase
-# completed phase: How long the phase actually took
-builtin_interfaces/Duration duration
+# If predicted_duration is available
+bool has_predicted_duration
+
+# original prediction of the duration, this is generated
+# before phase execution. Unchange once generated.
+builtin_interfaces/Duration predicted_duration
+
+# If remaining_duration is available
+bool has_remaining_duration
+
+# predicted remaining duration to complete the phase
+# - pending phase: predicted_duration
+# - active phase: remaining duration
+# - completed phase: 0
+builtin_interfaces/Duration remaining_duration
+
+# actual runtime duration of the phase
+# - pending phase: 0
+# - active phase: remaining duration
+# - completed phase: 0
+builtin_interfaces/Duration runtime_duration
 
