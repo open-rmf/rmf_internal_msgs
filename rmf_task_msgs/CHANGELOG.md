@@ -1,6 +1,6 @@
 ## Changelog for package rmf_task_msgs
 
-1.3.0 (2021-XX-XX)
+1.3.0 (2021-05-27)
 ------------------
 * Added task dispatcher related messages and services: [#217](https://github.com/osrf/rmf_core/pull/217)
 

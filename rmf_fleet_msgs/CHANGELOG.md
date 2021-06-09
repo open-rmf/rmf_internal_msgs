@@ -1,6 +1,6 @@
 ## Changelog for package rmf_fleet_msgs
 
-1.3.0 (2021-XX-XX)
+1.3.0 (2021-05-27)
 ------------------
 * Added messages for opening/closing lanes: [#5](https://github.com/open-rmf/rmf_internal_msgs/pull/5)
 * Added Docking related messages: [#217](https://github.com/osrf/rmf_core/pull/217)
