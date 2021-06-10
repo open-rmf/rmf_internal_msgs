@@ -5,6 +5,7 @@
   <version>1.3.0</version>
   <description>This package contains messages regarding charging and discharging</description>
   <maintainer email="arjo@openrobotics.org">Arjo Chakravarty</maintainer>
+  <maintainer email="marco@openrobotics.org">Marco A. Gutiérrez</maintainer>
   <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

@@ -5,6 +5,7 @@
   <version>1.3.0</version>
   <description>Messages used to interface to lifts.</description>
   <maintainer email="mquigley@openrobotics.org">Morgan Quigley</maintainer>
+  <maintainer email="marco@openrobotics.org">Marco A. Gutiérrez</maintainer>
   <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
