@@ -1,0 +1,4 @@
+uint64 participant
+uint64 request_id
+ReservationRequest[] alternatives
+int32 priority

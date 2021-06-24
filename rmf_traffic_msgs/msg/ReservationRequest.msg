@@ -1,0 +1,9 @@
+string resource_name
+bool has_start_time
+ReservationTimeRange start_times
+
+bool has_finish_time
+builtin_interfaces/Time finish_time
+
+bool has_duration
+builtin_interfaces/Duration duration

@@ -1,0 +1,4 @@
+bool has_upper_bound
+builtin_interfaces/Time upper_bound
+bool has_lower_bound
+builtin_interfaces/Time lower_bound
