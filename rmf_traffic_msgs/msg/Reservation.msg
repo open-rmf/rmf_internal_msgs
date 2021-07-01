@@ -4,4 +4,4 @@ string resource
 bool has_duration # if false ignore the Duration field
 builtin_interfaces/Duration duration
 bool has_finish_time
-builtin_interfaces/Duration finish_time
+builtin_interfaces/Time finish_time
