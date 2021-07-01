@@ -1,1 +1,2 @@
+uint64 participant_id
 uint64 proposalid
