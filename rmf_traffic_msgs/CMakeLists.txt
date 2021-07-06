@@ -64,6 +64,7 @@ set(msg_files
   "msg/ReservationProposalRej.msg"
   "msg/ReservationRegisterParticipant.msg"
   "msg/ReservationRequest.msg"
+  "msg/ReservationRequestCancel.msg"
   "msg/ReservationRequests.msg"
   "msg/ReservationRollout.msg"
   "msg/ReservationTimeRange.msg"
