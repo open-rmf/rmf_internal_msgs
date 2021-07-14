@@ -29,6 +29,8 @@ set(msg_files
   "msg/Circle.msg"
   "msg/ConvexShape.msg"
   "msg/ConvexShapeContext.msg"
+  "msg/FailOverEvent.msg"
+  "msg/Heartbeat.msg"
   "msg/Itinerary.msg"
   "msg/ItineraryClear.msg"
   "msg/ItineraryDelay.msg"
@@ -39,7 +41,6 @@ set(msg_files
   "msg/ParticipantDescription.msg"
   "msg/Profile.msg"
   "msg/Region.msg"
-  "msg/RequestChanges.msg"
   "msg/Route.msg"
   "msg/ScheduleChangeAdd.msg"
   "msg/ScheduleChangeCull.msg"
@@ -61,6 +62,7 @@ set(msg_files
   "msg/ScheduleParticipantPatch.msg"
   "msg/SchedulePatch.msg"
   "msg/ScheduleQuery.msg"
+  "msg/ScheduleQueries.msg"
   "msg/ScheduleQueryParticipants.msg"
   "msg/ScheduleQuerySpacetime.msg"
   "msg/ScheduleWriterItem.msg"
@@ -75,6 +77,7 @@ set(msg_files
 set(srv_files
   "srv/RegisterQuery.srv"
   "srv/UnregisterQuery.srv"
+  "srv/RequestChanges.srv"
   "srv/RegisterParticipant.srv"
   "srv/UnregisterParticipant.srv"
 )
