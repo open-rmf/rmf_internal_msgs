@@ -6,3 +6,10 @@ uint64 version
 
 # Request a full update rather than from a specific version
 bool full_update false
+
+---
+
+# Response to the request
+uint8 REQUEST_ACCEPTED=1
+uint8 UNKNOWN_QUERY_ID=2
+uint8 result

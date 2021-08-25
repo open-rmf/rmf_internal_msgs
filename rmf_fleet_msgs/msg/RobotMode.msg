@@ -12,4 +12,6 @@ uint32 MODE_DOCKING=7
 # has a problem and needs to be recomputed.
 uint32 MODE_ADAPTER_ERROR=8
 
+uint32 MODE_CLEANING=9
+
 uint64 mode_request_id
