@@ -4,6 +4,9 @@ ScheduleQuery query
 
 ---
 
+# The version of the schedule node that provided this registration
+uint64 node_version
+
 # The ID given to the registered query. Use this ID when making a query request.
 uint64 query_id
 

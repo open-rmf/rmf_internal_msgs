@@ -76,7 +76,6 @@ set(msg_files
 
 set(srv_files
   "srv/RegisterQuery.srv"
-  "srv/UnregisterQuery.srv"
   "srv/RequestChanges.srv"
   "srv/RegisterParticipant.srv"
   "srv/UnregisterParticipant.srv"
