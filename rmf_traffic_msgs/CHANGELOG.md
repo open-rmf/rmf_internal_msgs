@@ -1,5 +1,10 @@
 ## Changelog for package rmf_traffic_msgs
 
+1.4.0 (2021-09-01)
+------------------
+* More efficient schedule updating: [#22](https://github.com/open-rmf/rmf_traffic/pull/22), [#23](https://github.com/open-rmf/rmf_traffic/pull/23), [#24](https://github.com/open-rmf/rmf_traffic/pull/24)
+* Enable redundancy for traffic schedule node: [#16](https://github.com/open-rmf/rmf_traffic/pull/16)
+
 1.3.0 (2021-05-27)
 ------------------
 * Add an itinerary_version field: [#10](https://github.com/open-rmf/rmf_internal_msgs/pull/10)
