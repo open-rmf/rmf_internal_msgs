@@ -3,6 +3,10 @@
 # moves between the queues to completion (or failure).
 string task_id
 
+# robot_type can be used to specify a particular robot fleet
+# for this request
+string robot_type
+
 rmf_dispenser_msgs/DispenserRequestItem[] items
 
 string pickup_place_name
