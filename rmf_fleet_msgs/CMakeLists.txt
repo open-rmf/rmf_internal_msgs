@@ -23,6 +23,7 @@ set(msg_files
   "msg/RobotState.msg"
   "msg/FleetState.msg"
   "msg/ModeRequest.msg"
+  "msg/ModeParameter.msg"
   "msg/DestinationRequest.msg"
   "msg/PathRequest.msg"
   "msg/PauseRequest.msg"
