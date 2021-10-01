@@ -6,4 +6,4 @@ RobotMode mode
 string task_id
 
 # Some mode changes require parameters. For example, the name of a dock.
-ModeParameter[] parameters
+Parameter[] parameters

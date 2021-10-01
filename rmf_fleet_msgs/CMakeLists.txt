@@ -18,6 +18,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 set(msg_files
   "msg/Location.msg"
+  "msg/Parameter.msg"
   "msg/RobotMode.msg"
   "msg/RobotState.msg"
   "msg/FleetState.msg"
@@ -25,7 +26,6 @@ set(msg_files
   "msg/DestinationRequest.msg"
   "msg/PathRequest.msg"
   "msg/PauseRequest.msg"
-  "msg/ModeParameter.msg"
   "msg/DockParameter.msg"
   "msg/Dock.msg"
   "msg/DockSummary.msg"
