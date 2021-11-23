@@ -3,8 +3,9 @@ float32 x
 float32 y
 float32 yaw
 
-# Target speed of the lane leading to this waypoint, to be respected if > 0.0
-float32 approach_speed
+bool obey_approach_speed_limit false
+# Speed limit of the lane leading to this waypoint
+float32 approach_speed_limit
 
 string level_name
 uint64 index
