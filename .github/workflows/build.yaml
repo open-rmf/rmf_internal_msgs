@@ -18,8 +18,9 @@ jobs:
         uses: ros-tooling/action-ros-ci@v0.2
         with:
           target-ros2-distro: ${{ matrix.ros_distribution }}
+          # Build all packages listed in the meta package, as well as their
+          # downstream packages, to check for breaking changes.
           package-name: |
-            # build all packages listed in the meta package
             rmf_charger_msgs
             rmf_dispenser_msgs
             rmf_door_msgs
@@ -29,7 +30,6 @@ jobs:
             rmf_task_msgs
             rmf_traffic_msgs
             rmf_workcell_msgs
-            # build their downstream packages as well, to prevent breaking changes
             rmf_task_ros2
             rmf_traffic_ros2
             rmf_fleet_adapter
