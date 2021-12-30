@@ -18,6 +18,8 @@ find_package(rmf_dispenser_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 set(msg_files
+  "msg/ApiRequest.msg"
+  "msg/ApiResponse.msg"
   "msg/Delivery.msg"
   "msg/Behavior.msg"
   "msg/BehaviorParameter.msg"
@@ -38,6 +40,7 @@ set(msg_files
 )
 
 set(srv_files
+  "srv/ApiService.srv"
   "srv/SubmitTask.srv"
   "srv/CancelTask.srv"
   "srv/ReviveTask.srv"

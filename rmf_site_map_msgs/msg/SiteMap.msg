@@ -1,6 +1,8 @@
 uint32 MAP_DATA_UNDEFINED=0
 uint32 MAP_DATA_GPKG=1
 uint32 MAP_DATA_GPKG_GZ=2
+uint32 MAP_DATA_GEOJSON=3
+uint32 MAP_DATA_GEOJSON_GZ=4
 
 uint32 encoding
 uint8[] data
