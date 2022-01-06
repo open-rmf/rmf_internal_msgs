@@ -4,9 +4,12 @@
 # The name of the Fleet Adapter publishing this message
 string fleet_name
 
+# The name of the robot in the fleet which will potentially execute the task
+string expected_robot_name
+
 # Details of the task to accommodate. This should math the TaskProfile in the
 # BidNotice
-TaskProfile task_profile
+string task_id
 
 # The overall cost of task assignments prior to accommodating the new task
 float64 prev_cost
@@ -16,6 +19,3 @@ float64 new_cost
 
 # The estimated finish time of the new task
 builtin_interfaces/Time finish_time
-
-# The name of the robot in the fleet which will potentially execute the task
-string robot_name

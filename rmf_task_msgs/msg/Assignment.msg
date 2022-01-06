@@ -1,0 +1,3 @@
+bool is_assigned
+string fleet_name
+string expected_robot_name
