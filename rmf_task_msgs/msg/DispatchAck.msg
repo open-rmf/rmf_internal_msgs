@@ -3,7 +3,7 @@
 # cancellation was successful.
 
 # The ID of the DispatchRequest that is being responded to
-uint64 request_id
+uint64 dispatch_id
 
 # True if the addition or cancellation operation was successful
 bool success

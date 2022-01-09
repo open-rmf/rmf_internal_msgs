@@ -35,6 +35,7 @@ set(msg_files
   "msg/TaskProfile.msg"
   "msg/BidNotice.msg"
   "msg/BidProposal.msg"
+  "msg/BidResponse.msg"
   "msg/DispatchState.msg"
   "msg/DispatchStates.msg"
   "msg/DispatchCommand.msg"
