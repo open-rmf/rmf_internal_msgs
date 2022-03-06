@@ -31,6 +31,7 @@ set(msg_files
   "msg/DockSummary.msg"
   "msg/LaneRequest.msg"
   "msg/ClosedLanes.msg"
+  "msg/InterruptRequest.msg"
 )
 
 set(srv_files
