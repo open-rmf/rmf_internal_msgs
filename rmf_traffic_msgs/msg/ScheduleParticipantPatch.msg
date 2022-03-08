@@ -7,4 +7,4 @@ uint64[] erasures
 
 ScheduleChangeDelay[] delays
 
-ScheduleChangeAdd[] additions
+ScheduleChangeAdd additions
