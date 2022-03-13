@@ -70,6 +70,7 @@ set(msg_files
   "msg/ShapeContext.msg"
   "msg/Space.msg"
   "msg/Timespan.msg"
+  "msg/TrafficDependency.msg"
   "msg/Trajectory.msg"
   "msg/TrajectoryWaypoint.msg"
 )
