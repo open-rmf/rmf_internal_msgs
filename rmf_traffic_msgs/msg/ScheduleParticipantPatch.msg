@@ -8,3 +8,5 @@ uint64[] erasures
 ScheduleChangeDelay[] delays
 
 ScheduleChangeAdd additions
+
+ScheduleChangeProgress progress
