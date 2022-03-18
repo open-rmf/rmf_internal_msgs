@@ -1,5 +1,9 @@
 ## Changelog for package rmf_traffic_msgs
 
+2.0.0 (2022-03-18)
+------------------
+* Add structs for traffic dependency system: Add PR Here
+
 1.4.0 (2021-09-01)
 ------------------
 * More efficient schedule updating: [#22](https://github.com/open-rmf/rmf_traffic/pull/22), [#23](https://github.com/open-rmf/rmf_traffic/pull/23), [#24](https://github.com/open-rmf/rmf_traffic/pull/24)
