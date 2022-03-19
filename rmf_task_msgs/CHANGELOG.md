@@ -1,5 +1,11 @@
 ## Changelog for package rmf_task_msgs
 
+1.5.0 (2022-02-14)
+------------------
+* Support flexible task definitions [#33](https://github.com/osrf/rmf_internal_msgs/pull/33)
+* Add approach_speed field to Location message [#28](https://github.com/osrf/rmf_internal_msgs/pull/28)
+* Add GeoJSON encoding enums [#30](https://github.com/osrf/rmf_internal_msgs/pull/30)
+
 1.3.0 (2021-05-27)
 ------------------
 * Added task dispatcher related messages and services: [#217](https://github.com/osrf/rmf_core/pull/217)
