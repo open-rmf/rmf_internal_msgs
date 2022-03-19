@@ -2,7 +2,7 @@
 
 2.0.0 (2022-03-18)
 ------------------
-* Add structs for traffic dependency system: Add PR Here
+* Add structs for traffic dependency system: [#37](https://github.com/open-rmf/rmf_internal_msgs/pull/37)
 
 1.4.0 (2021-09-01)
 ------------------
