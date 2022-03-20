@@ -3,6 +3,6 @@
 uint64 participant
 
 # The new routes that are being added to the itinerary
-ScheduleWriterItem[] routes
+Route[] routes
 
 uint64 itinerary_version

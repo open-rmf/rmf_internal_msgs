@@ -32,5 +32,8 @@ uint64 for_participant
 #              them in the list, recursively.
 NegotiationKey[] to_accommodate
 
+# The unique ID for the plan that is being proposed
+uint64 plan_id
+
 # The itinerary that is being proposed for this participant
 Route[] itinerary
