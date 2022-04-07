@@ -1,4 +1,5 @@
-# Registers a new trigger to be performed at a specific time.
+# Registers a new trigger to be performed at a specific time. Existing trigger with the same
+# name will be replaced.
 
 Trigger trigger
 
@@ -9,6 +10,3 @@ bool success
 
 # If success is false, this provides a reason for the failure.
 string message
-
-# id of the new trigger
-uint64 id

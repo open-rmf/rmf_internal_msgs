@@ -6,4 +6,4 @@ uint16 type
 uint16 SERIALIZED_MESSAGE=1
 
 # max 2mb
-uint8[<=2097152] payload
+uint8[<=2097152] data

@@ -25,6 +25,8 @@ set(msg_files
   msg/TriggerRecord.msg)
 
 set(srv_files
+  srv/CancelSchedule.srv
+  srv/CancelTrigger.srv
   srv/ListSchedules.srv
   srv/ListTriggers.srv
   srv/RegisterSchedule.srv

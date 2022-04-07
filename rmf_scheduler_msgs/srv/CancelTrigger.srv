@@ -1,6 +1,4 @@
-# Registers a new recurring schedule. Existing schedule with the same name will be replaced.
-
-Schedule schedule
+string name
 
 ---
 

@@ -1,9 +1,6 @@
 # Name to identify the schedule, must be unique across all schedules.
 string name
 
-# A list of tags to help categorize the schedule.
-string[] tags
-
 # A cron string describing the schedule.
 # ┌───────────── minute (0 - 59)
 # │ ┌───────────── hour (0 - 23)

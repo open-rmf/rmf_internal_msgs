@@ -1,7 +1,5 @@
 Trigger trigger
 
-uint64 id
-
 # unix time in seconds
 int64 created_at
 
