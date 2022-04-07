@@ -20,8 +20,10 @@ set(msg_files
   msg/Payload.msg
   msg/Schedule.msg
   msg/ScheduleRecord.msg
+  msg/ScheduleState.msg
   msg/Trigger.msg
-  msg/TriggerRecord.msg)
+  msg/TriggerRecord.msg
+  msg/TriggerState.msg)
 
 set(srv_files
   srv/CancelSchedule.srv
