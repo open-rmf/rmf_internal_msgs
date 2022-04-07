@@ -16,4 +16,7 @@ string schedule
 # unix time in secs
 int64 start_at
 
+# unix time in secs
+int64 finish_at 9223372036854775807
+
 Payload payload

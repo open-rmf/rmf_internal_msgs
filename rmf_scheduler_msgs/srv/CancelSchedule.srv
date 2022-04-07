@@ -1,8 +1,11 @@
 string name
 
+# Indicate that the schedule is considered finished successfully.
+bool finished
+
 ---
 
-# Confirmation that the schedule is successfully registered
+# Confirmation that the schedule is successfully cancelled.
 bool success
 
 # If success is false, this provides a reason for the failure.
