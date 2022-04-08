@@ -23,22 +23,25 @@ set(msg_files
   msg/ScheduleState.msg
   msg/Trigger.msg
   msg/TriggerRecord.msg
-  msg/TriggerState.msg)
+  msg/TriggerState.msg
+)
 
 set(srv_files
   srv/CancelSchedule.srv
   srv/CancelTrigger.srv
+  srv/CreateSchedule.srv
+  srv/CreateTrigger.srv
   srv/ListSchedules.srv
   srv/ListTriggers.srv
-  srv/RegisterSchedule.srv
-  srv/RegisterTrigger.srv)
+)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${srv_files}
   ${msg_files}
   DEPENDENCIES
     builtin_interfaces
-  ADD_LINTER_TESTS)
+  ADD_LINTER_TESTS
+)
 
 ament_export_dependencies(rosidl_default_runtime)
 
