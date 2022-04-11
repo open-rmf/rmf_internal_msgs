@@ -1,5 +1,11 @@
 # unix time in seconds
+int64 last_modified
+
+# unix time in seconds
 int64 last_ran
+
+# unix time in seconds
+int64 next_run
 
 int8 status
 int8 CREATED=1

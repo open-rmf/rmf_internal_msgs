@@ -1,4 +1,7 @@
 # unix time in seconds
+int64 last_modified
+
+# unix time in seconds
 int64 last_ran
 
 int8 status

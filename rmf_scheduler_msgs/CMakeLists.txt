@@ -21,6 +21,7 @@ set(msg_files
   msg/Schedule.msg
   msg/ScheduleRecord.msg
   msg/ScheduleState.msg
+  msg/SerializedMessage.msg
   msg/Trigger.msg
   msg/TriggerRecord.msg
   msg/TriggerState.msg
@@ -32,7 +33,9 @@ set(srv_files
   srv/CreateSchedule.srv
   srv/CreateTrigger.srv
   srv/ListSchedules.srv
+  srv/ListScheduleStates.srv
   srv/ListTriggers.srv
+  srv/ListTriggerStates.srv
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
