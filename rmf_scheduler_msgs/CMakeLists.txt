@@ -19,11 +19,9 @@ find_package(rosidl_default_generators REQUIRED)
 set(msg_files
   msg/Payload.msg
   msg/Schedule.msg
-  msg/ScheduleRecord.msg
   msg/ScheduleState.msg
   msg/SerializedMessage.msg
   msg/Trigger.msg
-  msg/TriggerRecord.msg
   msg/TriggerState.msg
 )
 

@@ -1,3 +1,5 @@
+string name
+
 # unix time in seconds
 int64 last_modified
 
