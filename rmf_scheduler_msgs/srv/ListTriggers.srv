@@ -12,3 +12,4 @@ bool success
 string message
 
 Trigger[] triggers
+int64[] created
