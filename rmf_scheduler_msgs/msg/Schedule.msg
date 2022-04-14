@@ -1,7 +1,6 @@
 # Name to identify the schedule, must be unique across all schedules.
 string name
 
-# A cron string describing the schedule.
 # ┌───────────── minute (0 - 59)
 # │ ┌───────────── hour (0 - 23)
 # │ │ ┌───────────── day of the month (1 - 31)
@@ -10,9 +9,9 @@ string name
 # │ │ │ │ │
 # │ │ │ │ │
 # * * * * *
-#
+# 
 # | Field | Required | Allowed value | Allowed special characters |
-# | --- | --- | --- | --- | --- |
+# | --- | --- | --- | --- |
 # | seconds | yes | 0-59 | `*` `,` `-` |
 # | minutes | yes | 0-59 | `*` `,` `-` |
 # | hours | yes | 0-23 | `*` `,` `-` |
@@ -33,7 +32,6 @@ string name
 # | `L` | last | last day of the month or last day of the week |
 # | `W` | weekday | the weekday nearest to the given day |
 # | `#` | nth |  specify the Nth day of the month |
-#
 # Examples: 
 # 
 # | CRON | Description |
@@ -49,7 +47,7 @@ string name
 # | 0 15 10 L * ? | 10:15 AM on the last day of every month |
 # | 0 0 12 1/5 * ? | 12 PM every 5 days every month, starting on the first day of the month |
 # | 0 11 11 11 11 ? | Every November 11th at 11:11 AM |
-#
+# 
 # Reference: https://github.com/mariusbancila/croncpp/blob/999f7685ab683b58872386c0aa019acf97c6570a/README.md
 string schedule
 
