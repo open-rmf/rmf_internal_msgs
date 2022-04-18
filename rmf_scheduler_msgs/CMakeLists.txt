@@ -26,6 +26,7 @@ set(msg_files
 )
 
 set(srv_files
+  srv/CancelAll.srv
   srv/CancelSchedule.srv
   srv/CancelTrigger.srv
   srv/CreateSchedule.srv
