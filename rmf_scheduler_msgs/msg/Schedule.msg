@@ -1,6 +1,9 @@
 # Name to identify the schedule, must be unique across all schedules.
 string name
 
+# unix timestamp in seconds
+int64 created_at
+
 # ┌───────────── minute (0 - 59)
 # │ ┌───────────── hour (0 - 23)
 # │ │ ┌───────────── day of the month (1 - 31)
@@ -56,5 +59,7 @@ int64 start_at
 
 # unix time in secs
 int64 finish_at 9223372036854775807
+
+string group "default"
 
 Payload payload
