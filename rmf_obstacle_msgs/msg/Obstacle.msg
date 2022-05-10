@@ -13,12 +13,6 @@ string level_name
 # A classification label for the detected obstacle. (human, chair, etc)
 string classification
 
-# The pose of the obstacle
-geometry_msgs/PoseWithCovariance pose
-
-# The velocity of the obstacle
-geometry_msgs/TwistWithCovariance velocity
-
 # 3D representation of the obstacle
 ObstacleData data
 

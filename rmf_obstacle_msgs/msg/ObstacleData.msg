@@ -1,6 +1,9 @@
 # Bounding box of the obstacle
 vision_msgs/BoundingBox3D box
 
+# The velocity of the obstacle
+geometry_msgs/TwistWithCovariance velocity
+
 # Obstacle data represented as an Octree
 # Resolution (in m) of the smallest octree node.
 # The resolution is standardized within RMF
