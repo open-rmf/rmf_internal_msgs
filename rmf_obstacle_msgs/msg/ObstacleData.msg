@@ -1,5 +1,5 @@
 # Bounding box of the obstacle
-BoundingBox box
+vision_msgs/BoundingBox3D box
 
 # Obstacle data represented as an Octree
 # Resolution (in m) of the smallest octree node.

@@ -16,10 +16,10 @@ find_package(ament_cmake REQUIRED)
 find_package(builtin_interfaces REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(vision_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 set(msg_files
-  "msg/BoundingBox.msg"
   "msg/ObstacleData.msg"
   "msg/Obstacle.msg"
   "msg/Obstacles.msg"
@@ -28,7 +28,7 @@ set(msg_files
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
   ${srv_files}
-  DEPENDENCIES builtin_interfaces geometry_msgs
+  DEPENDENCIES builtin_interfaces geometry_msgs vision_msgs std_msgs
   ADD_LINTER_TESTS
 )
 
