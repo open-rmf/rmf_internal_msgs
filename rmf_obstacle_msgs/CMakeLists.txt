@@ -19,7 +19,7 @@ find_package(geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 set(msg_files
-  "msg/BoundingBox"
+  "msg/BoundingBox.msg"
   "msg/ObstacleData.msg"
   "msg/Obstacle.msg"
   "msg/Obstacles.msg"
