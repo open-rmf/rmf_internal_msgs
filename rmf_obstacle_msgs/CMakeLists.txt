@@ -19,7 +19,10 @@ find_package(geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 set(msg_files
-  "msg/StaticObstacle.msg"
+  "msg/BoundingBox"
+  "msg/ObstacleData.msg"
+  "msg/Obstacle.msg"
+  "msg/Obstacles.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
