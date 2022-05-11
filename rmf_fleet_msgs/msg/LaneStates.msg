@@ -1,3 +1,4 @@
+# The name of the fleet with closed or speed limited lanes
 string fleet_name
 
 # The indices of the lanes that are currently closed
