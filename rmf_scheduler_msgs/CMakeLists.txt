@@ -20,7 +20,6 @@ set(msg_files
   msg/Payload.msg
   msg/Schedule.msg
   msg/ScheduleState.msg
-  msg/SerializedMessage.msg
   msg/Trigger.msg
   msg/TriggerState.msg
 )
