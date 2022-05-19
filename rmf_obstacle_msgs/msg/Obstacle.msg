@@ -13,6 +13,9 @@ string level_name
 # A classification label for the detected obstacle. (human, chair, etc)
 string classification
 
+# Bounding box of the obstacle
+vision_msgs/BoundingBox3D bbox
+
 # 3D representation of the obstacle
 ObstacleData data
 
