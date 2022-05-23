@@ -1,3 +1,5 @@
+# All measurements should be w.r.t. header.frame_id
+
 # Standard header
 std_msgs/Header header
 
@@ -16,8 +18,12 @@ string classification
 # Bounding box of the obstacle
 vision_msgs/BoundingBox3D bbox
 
-# 3D representation of the obstacle
-ObstacleData data
+# 3D obstacle data that can be deserialized into an octree.
+# Resolution (in m) of the smallest octree node.
+float64 data_resolution
+
+# Binary serialization of the obstacle octree
+int8[] data
 
 # The expected lifetime of the obstacle
 builtin_interfaces/Duration lifetime

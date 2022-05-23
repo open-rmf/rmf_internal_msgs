@@ -20,7 +20,6 @@ find_package(vision_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 set(msg_files
-  "msg/ObstacleData.msg"
   "msg/Obstacle.msg"
   "msg/Obstacles.msg"
 )
