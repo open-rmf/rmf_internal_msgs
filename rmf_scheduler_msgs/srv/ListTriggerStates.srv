@@ -1,0 +1,14 @@
+# Get a list of currently registered triggers.
+
+# unix time in seconds
+int64 modified_after
+
+---
+
+# Confirmation that the trigger is successfully cancelled.
+bool success
+
+# If success is false, this provides a reason for the failure.
+string message
+
+TriggerState[] triggers

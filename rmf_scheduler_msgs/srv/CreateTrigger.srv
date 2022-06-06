@@ -1,0 +1,14 @@
+# Registers a new trigger to be performed at a specific time. Existing trigger with the same
+# name will be replaced.
+
+# The following fields are ignored:
+#   - created_at
+Trigger trigger
+
+---
+
+# Confirmation that the trigger is successfully registered
+bool success
+
+# If success is false, this provides a reason for the failure.
+string message
