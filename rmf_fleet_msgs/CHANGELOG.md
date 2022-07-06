@@ -1,5 +1,9 @@
 ## Changelog for package rmf_fleet_msgs
 
+2.X.X (2022-XX-XX)
+-------------
+* Added SpeedLimitRequest message: [#43](https://github.com/open-rmf/rmf_internal_msgs/pull/43)
+
 2.0.0 (2022-03-29)
 ------------------
 * Introducing the traffic dependency system (`#37 <https://github.com/open-rmf/rmf_internal_msgs/issues/37>`_)
