@@ -16,7 +16,7 @@ string level_name
 string classification
 
 # Bounding box of the obstacle
-vision_msgs/BoundingBox3D bbox
+BoundingBox3D bbox
 
 # 3D obstacle data that can be deserialized into an octree.
 # Resolution (in m) of the smallest octree node.
