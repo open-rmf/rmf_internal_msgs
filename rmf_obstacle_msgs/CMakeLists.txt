@@ -13,13 +13,14 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
 endif()
 
 find_package(ament_cmake REQUIRED)
-find_package(builtin_interfaces REQUIRED)
-find_package(std_msgs REQUIRED)
-find_package(geometry_msgs REQUIRED)
-find_package(vision_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
+find_package(builtin_interfaces REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(std_msgs REQUIRED)
+
 set(msg_files
+  "msg/BoundingBox3D.msg"
   "msg/Obstacle.msg"
   "msg/Obstacles.msg"
 )
@@ -27,7 +28,7 @@ set(msg_files
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
   ${srv_files}
-  DEPENDENCIES builtin_interfaces geometry_msgs vision_msgs std_msgs
+  DEPENDENCIES builtin_interfaces geometry_msgs std_msgs
   ADD_LINTER_TESTS
 )
 
