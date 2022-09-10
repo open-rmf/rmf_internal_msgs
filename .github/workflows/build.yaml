@@ -2,18 +2,31 @@ name: build
 on: [push, pull_request]
 jobs:
   build_and_test:
-    name: Build and test
-    runs-on: ubuntu-20.04
-    container:
-      image: rostooling/setup-ros-docker:ubuntu-focal-latest
     strategy:
+      fail-fast: false
       matrix:
         ros_distribution:
           - foxy
           - galactic
+          - humble
+        ubuntu_distribution:
+          - focal
+          - jammy
+        exclude:
+          - ros_distribution: foxy
+            ubuntu_distribution: jammy
+          - ros_distribution: galactic
+            ubuntu_distribution: jammy
+          - ros_distribution: humble
+            ubuntu_distribution: focal
+
+    name: Build and test
+    runs-on: ubuntu-22.04
+    container:
+      image: rostooling/setup-ros-docker:ubuntu-${{ matrix.ubuntu_distribution }}-latest
     steps:
       - name: deps
-        uses: ros-tooling/setup-ros@v0.3
+        uses: ros-tooling/setup-ros@v0.4
         with:
           required-ros-distributions: ${{ matrix.ros_distribution }}
       - name: install_clang
