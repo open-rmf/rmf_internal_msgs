@@ -58,6 +58,8 @@ set(msg_files
   "msg/NegotiationRepeat.msg"
   "msg/NegotiationState.msg"
   "msg/NegotiationStates.msg"
+  "msg/NegotiationStatus.msg"
+  "msg/NegotiationStatuses.msg"
   "msg/NegotiationTreeNode.msg"
   "msg/Participant.msg"
   "msg/Participants.msg"
