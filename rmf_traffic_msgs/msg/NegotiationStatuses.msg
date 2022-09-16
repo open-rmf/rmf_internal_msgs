@@ -1,0 +1,2 @@
+
+NegotiationStatus[] negotiations

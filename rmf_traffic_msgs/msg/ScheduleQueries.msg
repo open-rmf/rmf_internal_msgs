@@ -1,8 +1,8 @@
 # The version of the schedule node that provided this update
-uint64 node_version
+ScheduleIdentity node_id
 
 # The list of known queries
 ScheduleQuery[] queries
 
 # The list of IDs for those queries
-uint64[] ids
+uint64[] query_ids
