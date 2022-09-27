@@ -1,5 +1,8 @@
 ## Changelog for package rmf_ingestor_msgs
 
+3.0.0 (2022-09-27)
+------------------
+
 2.0.0 (2022-03-29)
 ------------------
 * Introducing the traffic dependency system (`#37 <https://github.com/open-rmf/rmf_internal_msgs/issues/37>`_)

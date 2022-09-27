@@ -1,5 +1,9 @@
 ## Changelog for package rmf_traffic_msgs
 
+3.0.0 (2022-09-27)
+------------------
+* Robust schedule failover (`#48 <https://github.com/open-rmf/rmf_internal_msgs/issues/48>`_)
+
 2.0.0 (2022-03-18)
 ------------------
 * Add message definitions to communicate the states of ongoing negotiations: [#45](https://github.com/open-rmf/rmf_internal_msgs/pull/45)
