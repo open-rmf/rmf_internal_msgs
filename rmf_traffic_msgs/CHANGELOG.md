@@ -1,6 +1,6 @@
 ## Changelog for package rmf_traffic_msgs
 
-3.0.0 (2022-09-27)
+3.0.1 (2022-09-27)
 ------------------
 * Robust schedule failover (`#48 <https://github.com/open-rmf/rmf_internal_msgs/issues/48>`_)
 

@@ -1,6 +1,6 @@
 ## Changelog for package rmf_fleet_msgs
 
-3.0.0 (2022-09-27)
+3.0.1 (2022-09-27)
 -------------
 * Added SpeedLimitRequest message: [#43](https://github.com/open-rmf/rmf_internal_msgs/pull/43)
 * Add LaneStates msg (`#41 <https://github.com/open-rmf/rmf_internal_msgs/issues/41>`_)
