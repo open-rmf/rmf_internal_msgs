@@ -9,6 +9,7 @@ uint32 MODE_GOING_HOME=6
 uint32 MODE_DOCKING=7
 uint32 MODE_ATTACHING_CART=8
 uint32 MODE_DETACHING_CART=9
+uint32 MODE_ATTACHED=10
 
 # Use this when a command received from the fleet adapter
 # has a problem and needs to be recomputed.
