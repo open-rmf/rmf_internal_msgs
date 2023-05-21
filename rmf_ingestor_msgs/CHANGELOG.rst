@@ -1,4 +1,6 @@
-## Changelog for package rmf_lift_msgs
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changelog for package rmf_ingestor_msgs
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 3.0.2 (2022-10-06)
 ------------------
@@ -19,5 +21,5 @@
 
 1.0.0 (2020-06-23)
 ------------------
-* Initial set of messages for communicating with lifts over ROS2
-* Contributors: Grey, Marco A. Gutiérrez, Michael X. Grey, Morgan Quigley
+* Initial set of messages for interfacing with ingestors over ROS2
+* Contributors: Aaron Chong, Grey, Morgan Quigley, Rushyendra Maganty

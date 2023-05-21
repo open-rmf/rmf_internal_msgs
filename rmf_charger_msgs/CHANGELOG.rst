@@ -1,4 +1,6 @@
-## Changelog for package rmf_charger_msgs
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changelog for package rmf_charger_msgs
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 3.0.2 (2022-10-06)
 ------------------
