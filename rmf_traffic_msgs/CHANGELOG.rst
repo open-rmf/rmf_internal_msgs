@@ -2,8 +2,8 @@
 Changelog for package rmf_traffic_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+3.0.3 (2023-06-02)
+------------------
 * Version updates from latest release synced to main (`#54 <https://github.com/open-rmf/rmf_internal_msgs/pull/54>`_)
 * Contributors: Esteban Martinena Guerrero
 
