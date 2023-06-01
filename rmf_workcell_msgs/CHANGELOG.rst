@@ -1,4 +1,11 @@
-## Changelog for package rmf_workcell_msgs
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changelog for package rmf_workcell_msgs
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Forthcoming
+-----------
+* Version updates from latest release synced to main (`#54 <https://github.com/open-rmf/rmf_internal_msgs/pull/54>`_)
+* Contributors: Esteban Martinena Guerrero
 
 3.0.2 (2022-10-06)
 ------------------
