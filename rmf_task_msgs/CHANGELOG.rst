@@ -2,8 +2,8 @@
 Changelog for package rmf_task_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+3.1.0 (2023-06-06)
+------------------
 * Switch to rst changelogs
 * Version updates from latest release synced to main (`#54 <https://github.com/open-rmf/rmf_internal_msgs/pull/54>`_)
 * Contributors: Esteban Martinena Guerrero, Yadunund
