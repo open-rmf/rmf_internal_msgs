@@ -2,6 +2,9 @@
 Changelog for package rmf_site_map_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 3.1.0 (2023-06-06)
 ------------------
 * Switch to rst changelogs
