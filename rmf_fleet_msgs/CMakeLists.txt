@@ -35,6 +35,8 @@ set(msg_files
   "msg/SpeedLimitedLane.msg"
   "msg/SpeedLimitRequest.msg"
   "msg/LaneStates.msg"
+  "msg/ChargingAssignment.msg"
+  "msg/ChargingAssignments.msg"
 )
 
 set(srv_files
