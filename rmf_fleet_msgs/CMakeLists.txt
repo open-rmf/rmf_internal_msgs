@@ -37,6 +37,9 @@ set(msg_files
   "msg/LaneStates.msg"
   "msg/ChargingAssignment.msg"
   "msg/ChargingAssignments.msg"
+  "msg/MutexGroupAssignment.msg"
+  "msg/MutexGroupRequest.msg"
+  "msg/MutexGroupStates.msg"
 )
 
 set(srv_files
