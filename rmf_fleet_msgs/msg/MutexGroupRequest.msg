@@ -14,3 +14,10 @@ string claimer
 # changes then this claim will be treated a new claim and may be deprioritized.
 # Earlier claims have priority over later claims.
 builtin_interfaces/Time claim_time
+
+# What kind of request is this?
+uint32 mode
+# Request to release the mutex group from this claimer
+uint32 MODE_RELEASE=0
+# Request to lock the mutex group for this claimer
+uint32 MODE_LOCK=1
