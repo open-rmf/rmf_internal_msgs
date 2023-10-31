@@ -37,6 +37,7 @@ set(msg_files
   "msg/LaneStates.msg"
   "msg/ChargingAssignment.msg"
   "msg/ChargingAssignments.msg"
+  "msg/BeaconState.msg"
 )
 
 set(srv_files
