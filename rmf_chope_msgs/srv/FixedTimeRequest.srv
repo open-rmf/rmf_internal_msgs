@@ -1,0 +1,4 @@
+FixedTimeReservationAlt[] alternatives
+---
+uint64 ticket
+bool ok
