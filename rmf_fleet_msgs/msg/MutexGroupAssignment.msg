@@ -4,6 +4,9 @@
 # Name of the mutex group that is being described.
 string group
 
-# Name of the agent that has currently claimed the group.
-# If the group is unclaimed, this will be an empty string.
-string claimed
+# Traffic Participant ID of the agent that has currently claimed the group.
+# If the group is unclaimed, this will be the max uint64 value.
+uint64 claimant
+
+# Time stamp of when the claim request began.
+builtin_interfaces/Time claim_time

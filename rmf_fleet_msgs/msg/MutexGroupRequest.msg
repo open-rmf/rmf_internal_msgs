@@ -7,7 +7,7 @@
 string group
 
 # Name of the agent that is trying to claim the mutex group.
-string claimer
+uint64 claimant
 
 # Time stamp of when the claim request began. The same time stamp should be used
 # for all subsequent heartbeat messages related to this claim. If the claim time
