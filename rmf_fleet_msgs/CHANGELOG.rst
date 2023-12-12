@@ -2,6 +2,11 @@
 Changelog for package rmf_fleet_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+3.0.4 (2023-12-15)
+------------------
+* Delivery alerts and beacons (`#60 <https://github.com/open-rmf/rmf_internal_msgs/pull/60>`_)
+* Mutex groups and dynamic charging (`#59 <https://github.com/open-rmf/rmf_internal_msgs/pull/59>`_)
+
 3.0.3 (2023-06-02)
 ------------------
 * Version updates from latest release synced to main (`#54 <https://github.com/open-rmf/rmf_internal_msgs/pull/54>`_)

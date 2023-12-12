@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>rmf_charger_msgs</name>
-  <version>3.0.3</version>
+  <version>3.0.4</version>
   <description>This package contains messages regarding charging and discharging</description>
   <maintainer email="arjo@openrobotics.org">Arjo Chakravarty</maintainer>
   <maintainer email="marco@openrobotics.org">Marco A. Gutiérrez</maintainer>

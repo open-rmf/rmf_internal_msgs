@@ -2,6 +2,9 @@
 Changelog for package rmf_lift_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+3.0.4 (2023-12-15)
+------------------
+
 3.0.3 (2023-06-02)
 ------------------
 * Version updates from latest release synced to main (`#54 <https://github.com/open-rmf/rmf_internal_msgs/pull/54>`_)
