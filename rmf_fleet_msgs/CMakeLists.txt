@@ -40,6 +40,11 @@ set(msg_files
   "msg/MutexGroupAssignment.msg"
   "msg/MutexGroupRequest.msg"
   "msg/MutexGroupStates.msg"
+  "msg/BeaconState.msg"
+  "msg/DeliveryAlert.msg"
+  "msg/DeliveryAlertAction.msg"
+  "msg/DeliveryAlertCategory.msg"
+  "msg/DeliveryAlertTier.msg"
 )
 
 set(srv_files
