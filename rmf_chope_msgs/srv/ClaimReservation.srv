@@ -1,4 +1,0 @@
-uint64 ticket
----
-uint64 alternative
-bool ok

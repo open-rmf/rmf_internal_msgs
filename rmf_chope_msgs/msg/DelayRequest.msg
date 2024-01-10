@@ -1,0 +1,2 @@
+rmf_chope_msgs/Ticket ticket
+builtin_interfaces/Duration duration

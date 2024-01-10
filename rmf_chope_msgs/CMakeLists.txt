@@ -14,9 +14,15 @@ find_package(builtin_interfaces REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/ClaimRequest.msg"
+  "msg/DelayRequest.msg"
   "msg/FixedTimeReservationAlt.msg"
-  "srv/FixedTimeRequest.srv"
-  "srv/ClaimReservation.srv"
+  "msg/FlexibleTimeRequest.msg"
+  "msg/FlexibleTimeReservationAlt.msg"
+  "msg/RequestHeader.msg"
+  "msg/ReservationAllocation.msg"
+  "msg/StartTimeRange.msg"
+  "msg/Ticket.msg"
   DEPENDENCIES builtin_interfaces)
 
 if(BUILD_TESTING)
