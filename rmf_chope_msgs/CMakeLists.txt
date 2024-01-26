@@ -21,6 +21,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/FlexibleTimeReservationAlt.msg"
   "msg/RequestHeader.msg"
   "msg/ReservationAllocation.msg"
+  "msg/ReleaseRequest.msg"
   "msg/StartTimeRange.msg"
   "msg/Ticket.msg"
   DEPENDENCIES builtin_interfaces)
