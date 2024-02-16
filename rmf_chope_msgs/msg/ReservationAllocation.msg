@@ -8,4 +8,3 @@ uint8 instruction_type
 uint64 satisfies_alternative
 string resource
 builtin_interfaces/Time time_to_reach
-string alternate_waitpoint

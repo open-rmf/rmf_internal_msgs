@@ -19,6 +19,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/FixedTimeReservationAlt.msg"
   "msg/FlexibleTimeRequest.msg"
   "msg/FlexibleTimeReservationAlt.msg"
+  "msg/FreeParkingSpots.msg"
   "msg/RequestHeader.msg"
   "msg/ReservationAllocation.msg"
   "msg/ReleaseRequest.msg"
