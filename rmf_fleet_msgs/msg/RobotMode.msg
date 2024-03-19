@@ -7,14 +7,14 @@ uint32 MODE_WAITING=4
 uint32 MODE_EMERGENCY=5
 uint32 MODE_GOING_HOME=6
 uint32 MODE_DOCKING=7
-uint32 MODE_ATTACHING_CART=8
-uint32 MODE_DETACHING_CART=9
-uint32 MODE_ACTION_COMPLETED=10
 
 # Use this when a command received from the fleet adapter
 # has a problem and needs to be recomputed.
 uint32 MODE_ADAPTER_ERROR=8
 
 uint32 MODE_CLEANING=9
+uint32 MODE_ATTACHING_CART=10
+uint32 MODE_DETACHING_CART=11
+uint32 MODE_ACTION_COMPLETED=12
 
 uint64 mode_request_id
