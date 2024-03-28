@@ -2,6 +2,9 @@
 Changelog for package rmf_charger_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 3.1.1 (2023-12-15)
 ------------------
 

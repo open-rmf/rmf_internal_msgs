@@ -2,6 +2,9 @@
 Changelog for package rmf_fleet_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 3.1.1 (2023-12-15)
 ------------------
 * Delivery alerts and beacons (`#60 <https://github.com/open-rmf/rmf_internal_msgs/pull/60>`_)
