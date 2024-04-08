@@ -38,6 +38,7 @@ set(msg_files
   "msg/ChargingAssignment.msg"
   "msg/ChargingAssignments.msg"
   "msg/MutexGroupAssignment.msg"
+  "msg/MutexGroupManualRelease.msg"
   "msg/MutexGroupRequest.msg"
   "msg/MutexGroupStates.msg"
   "msg/BeaconState.msg"
