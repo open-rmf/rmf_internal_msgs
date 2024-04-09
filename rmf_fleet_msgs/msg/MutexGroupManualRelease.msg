@@ -2,7 +2,7 @@
 # more mutex groups that it is currently holding.
 
 # Name of the mutex groups to release
-string[] groups
+string[] release_mutex_groups
 
 # The name of the fleet that the robot belongs to
 string fleet
