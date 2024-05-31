@@ -2,8 +2,8 @@
 Changelog for package rmf_obstacle_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+3.3.0 (2024-06-01)
+------------------
 * Added Header to obstacles message (`#55 <https://github.com/open-rmf/rmf_internal_msgs/pull/55>`_)
 * Contributors: Alejandro Hernández Cordero, Yadunund
 
