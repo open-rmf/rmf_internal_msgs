@@ -18,4 +18,6 @@ uint32 MODE_ACTION_COMPLETED=11
 
 uint64 mode_request_id
 
+# Specify the action that the robot is performing when its current mode
+# is MODE_PERFORMING_ACTION
 string performing_action
