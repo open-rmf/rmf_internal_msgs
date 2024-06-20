@@ -21,7 +21,7 @@ uint8 TIER_ERROR=2
 string[] responses_available
 
 # Parameters that may be useful for custom interactions
-FleetAlertParameter[] alert_parameters
+AlertParameter[] alert_parameters
 
 # The task ID that is involved in this alert. If no task is involved
 # this string can be left empty
