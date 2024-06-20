@@ -13,6 +13,10 @@ uint32 MODE_DOCKING=7
 uint32 MODE_ADAPTER_ERROR=8
 
 uint32 MODE_CLEANING=9
+
+# These modes are used to indicate that the robot has started or completed
+# performing an action in simulation, it is not encouraged to be used for
+# fleet adapters
 uint32 MODE_PERFORMING_ACTION=10
 uint32 MODE_ACTION_COMPLETED=11
 
