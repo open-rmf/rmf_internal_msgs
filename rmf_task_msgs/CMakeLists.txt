@@ -18,6 +18,9 @@ find_package(rmf_dispenser_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 set(msg_files
+  "msg/Alert.msg"
+  "msg/AlertParameter.msg"
+  "msg/AlertResponse.msg"
   "msg/ApiRequest.msg"
   "msg/ApiResponse.msg"
   "msg/Assignment.msg"
