@@ -1,0 +1,5 @@
+string resource_name
+float64 cost
+builtin_interfaces/Time start_time
+bool has_end
+builtin_interfaces/Duration duration
