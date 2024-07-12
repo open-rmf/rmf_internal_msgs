@@ -2,6 +2,9 @@
 Changelog for package rmf_ingestor_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 3.1.2 (2024-03-28)
 ------------------
 
