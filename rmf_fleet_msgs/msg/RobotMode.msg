@@ -14,4 +14,14 @@ uint32 MODE_ADAPTER_ERROR=8
 
 uint32 MODE_CLEANING=9
 
+# These modes are used to indicate that the robot has started or completed
+# performing an action in simulation, it is not encouraged to be used for
+# fleet adapters
+uint32 MODE_PERFORMING_ACTION=10
+uint32 MODE_ACTION_COMPLETED=11
+
 uint64 mode_request_id
+
+# Specify the action that the robot is performing when its current mode
+# is MODE_PERFORMING_ACTION
+string performing_action
