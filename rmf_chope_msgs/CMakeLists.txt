@@ -15,7 +15,6 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ClaimRequest.msg"
-  "msg/DelayRequest.msg"
   "msg/FixedTimeReservationAlt.msg"
   "msg/FlexibleTimeRequest.msg"
   "msg/FlexibleTimeReservationAlt.msg"
