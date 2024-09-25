@@ -1,2 +1,0 @@
-rmf_chope_msgs/RequestHeader header
-rmf_chope_msgs/FlexibleTimeReservationAlt[] alternatives

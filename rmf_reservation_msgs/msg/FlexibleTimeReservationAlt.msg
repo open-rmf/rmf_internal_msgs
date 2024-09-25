@@ -1,5 +1,5 @@
 string resource_name
 float64 cost
-rmf_chope_msgs/StartTimeRange start_time
+rmf_reservation_msgs/StartTimeRange start_time
 bool has_end
 builtin_interfaces/Duration duration

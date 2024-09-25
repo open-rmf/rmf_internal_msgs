@@ -1,2 +1,0 @@
-rmf_chope_msgs/Ticket ticket
-string location
