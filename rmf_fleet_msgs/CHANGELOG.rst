@@ -2,8 +2,8 @@
 Changelog for package rmf_fleet_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+3.4.1 (2024-11-13)
+------------------
 * Add attach cart actions (`#70 <https://github.com/open-rmf/rmf_internal_msgs/issues/70>`_)
 * Contributors: Luca Della Vedova, Xiyu
 

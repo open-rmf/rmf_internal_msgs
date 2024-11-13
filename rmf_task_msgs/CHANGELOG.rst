@@ -2,8 +2,8 @@
 Changelog for package rmf_task_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+3.4.1 (2024-11-13)
+------------------
 * New alert messages (`#71 <https://github.com/open-rmf/rmf_internal_msgs/issues/71>`_)
 * Contributors: Aaron Chong
 

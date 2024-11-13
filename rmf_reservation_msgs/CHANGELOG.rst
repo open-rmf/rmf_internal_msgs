@@ -2,8 +2,8 @@
 Changelog for package rmf_reservation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+3.4.1 (2024-11-13)
+------------------
 * Messages for proto-reservation system  (`#64 <https://github.com/open-rmf/rmf_internal_msgs/issues/64>`_)
 * Contributors: Arjo Chakravarty
 
