@@ -2,6 +2,11 @@
 Changelog for package rmf_fleet_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Mutex group manual release (`#67 <https://github.com/open-rmf/rmf_internal_msgs/issues/67>`_) (`#68 <https://github.com/open-rmf/rmf_internal_msgs/issues/68>`_)
+* Contributors: Grey
+
 3.0.4 (2023-12-15)
 ------------------
 * Delivery alerts and beacons (`#60 <https://github.com/open-rmf/rmf_internal_msgs/pull/60>`_)

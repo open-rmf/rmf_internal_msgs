@@ -2,6 +2,9 @@
 Changelog for package rmf_dispenser_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 3.0.4 (2023-12-15)
 ------------------
 
