@@ -2,8 +2,8 @@
 Changelog for package rmf_reservation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+3.0.5 (2024-11-18)
+------------------
 * Merge pull request `#76 <https://github.com/open-rmf/rmf_internal_msgs/issues/76>`_ from open-rmf/backport/71-64-to-humble
   Backport `#71 <https://github.com/open-rmf/rmf_internal_msgs/issues/71>`_ `#64 <https://github.com/open-rmf/rmf_internal_msgs/issues/64>`_ to humble
 * Messages for proto-reservation system  (`#64 <https://github.com/open-rmf/rmf_internal_msgs/issues/64>`_)
