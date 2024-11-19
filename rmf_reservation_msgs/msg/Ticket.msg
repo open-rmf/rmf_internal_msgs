@@ -1,2 +1,0 @@
-rmf_reservation_msgs/RequestHeader header
-uint64 ticket_id
