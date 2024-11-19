@@ -2,18 +2,6 @@
 Changelog for package rmf_task_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-3.0.5 (2024-11-18)
-------------------
-* Merge pull request `#76 <https://github.com/open-rmf/rmf_internal_msgs/issues/76>`_ from open-rmf/backport/71-64-to-humble
-  Backport `#71 <https://github.com/open-rmf/rmf_internal_msgs/issues/71>`_ `#64 <https://github.com/open-rmf/rmf_internal_msgs/issues/64>`_ to humble
-* New alert messages (`#71 <https://github.com/open-rmf/rmf_internal_msgs/issues/71>`_)
-  * New fleet alert messages
-  * Migrate to rmf_task_msgs, with more generic Alert name
-  * Fix missed changes
-  ---------
-  (cherry picked from commit dd2951debfe53d0391896ecb9ddf07f027af05e9)
-* Contributors: Aaron Chong
-
 3.0.4 (2023-12-15)
 ------------------
 

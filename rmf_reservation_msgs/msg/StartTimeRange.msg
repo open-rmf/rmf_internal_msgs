@@ -1,4 +1,0 @@
-builtin_interfaces/Time earliest_start_time
-bool has_earliest_start_time
-builtin_interfaces/Time latest_start_time
-bool has_latest_start_time
