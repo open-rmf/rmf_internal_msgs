@@ -11,3 +11,7 @@ string task_id
 
 # Duration for which the bidding is open
 builtin_interfaces/Duration time_window
+
+# If true, the Fleet Adapters will still respond with a BidProposal but the
+# task cannot be dispatched to any fleet.
+bool dry_run false
