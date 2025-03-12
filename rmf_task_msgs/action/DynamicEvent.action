@@ -1,0 +1,60 @@
+# Action topic:
+# rmf_dynamic_event/command/<fleet_name>/<robot_name>
+
+# What kind of event is this action commanding. Must be one of the following:
+# * EVENT_TYPE_NEXT
+# * EVENT_TYPE_CANCEL
+# * EVENT_TYPE_FINISHED
+#
+# Any other value will be rejected by the action server.
+uint32 event_type
+
+# Default value for event_type, indicates that the message was default-initialized.
+# This will immediately be rejected by the action server.
+uint32 EVENT_TYPE_UNINITIALIZED=0
+
+# Indicates that this request describes the next event for the phase to execute.
+uint32 EVENT_TYPE_NEXT=1
+
+# Cancel the currently active event. The id field must match the ID of the
+uint32 EVENT_TYPE_CANCEL=2
+
+# Indicates that the dynamic events are finished. After this, no more event commands can
+# be sent until a new Dynamic Event begins.
+uint32 EVENT_TYPE_FINISHED=3
+
+# Used to specify the category of the event when event_type is EVENT_TYPE_NEXT.
+# Otherwise this is unused.
+string category
+
+# Used to describe the event when event_type is EVENT_TYPE_NEXT.
+# Otherwise this is unused.
+string description
+
+# When using EVENT_TYPE_NEXT, this will be the ID for the newly created event.
+#
+# When using EVENT_TYPE_CANCEL, this indicates the ID of the event that is supposed to
+# be cancelled. If it does not match the currently active event ID, then the request will be
+# rejected. If it does match, then the action response will be sent once the event has
+# finished its cancellation.
+uint64 id
+
+---
+
+# The last status of the action before it was finished
+string status
+
+# The ID of the event which has finished
+uint64 id
+
+---
+
+# Current status of the action. This string will match one of the values in the "status" schema:
+# https://github.com/open-rmf/rmf_api_msgs/rmf_api_msgs/schemas/task_state.json
+string status
+
+# The ID of the currently active event.
+uint64 id
+
+# Log messages that have occurred since the last feedback message.
+rmf_task_msgs/LogEntry[] logs
