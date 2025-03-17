@@ -1,5 +1,13 @@
 # Action topic:
-# rmf_dynamic_event/command/<fleet_name>/<robot_name>
+# rmf/dynamic_event/command/<fleet_name>/<robot_name>
+
+# The sequence number for this dynamic event. This is unique for each run of a
+# dynamic event within one robot. It must match the dynamic_event_seq field in
+# the DynamicEventDescription which describes the event that is being executed.
+#
+# Each new run of a dynamic event for a robot will increment this value until it
+# reaches integer overflow and goes back to 0.
+uint32 dynamic_event_seq
 
 # What kind of event is this action commanding. Must be one of the following:
 # * EVENT_TYPE_NEXT
@@ -40,6 +48,18 @@ string description
 uint64 id
 
 ---
+
+# An error string that will describe a critical issue that occurred while attempting
+# to begin execution of the action, such as:
+# * a race condition occurs where multiple action requests are submitted simultaneously
+#   for the same robot and both are accepted before either begins
+# * a request is sent while the fleet adapter is shutting down
+# * an error occurs while generating the
+#
+# If this string is empty then no error occurred while beginning execution.
+# If this string is non-empty then the remaining fields in this message will be
+# default-initialized.
+string execution_failure
 
 # The last status of the action before it was finished
 string status

@@ -1,5 +1,12 @@
 # Published to the topic
-# rmf_dynamic_event/status/<fleet_name>/<robot_name>
+# rmf/dynamic_event/status/<fleet_name>/<robot_name>
+
+# The sequence number for this dynamic event. This is unique for each run of a
+# dynamic event within one robot.
+#
+# Each new run of a dynamic event for a robot will increment this value until it
+# reaches integer overflow and goes back to 0.
+uint32 dynamic_event_seq
 
 # Current state of dynamic event execution for the robot associated with the
 # topic that this is being published to.
