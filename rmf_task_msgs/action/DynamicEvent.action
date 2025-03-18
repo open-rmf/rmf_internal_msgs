@@ -24,7 +24,8 @@ uint32 EVENT_TYPE_UNINITIALIZED=0
 # Indicates that this request describes the next event for the phase to execute.
 uint32 EVENT_TYPE_NEXT=1
 
-# Cancel the currently active event. The id field must match the ID of the
+# Cancel the currently active event. The id field must match the ID of the ID of
+# the currently active event.
 uint32 EVENT_TYPE_CANCEL=2
 
 # Indicates that the dynamic events are finished. After this, no more event commands can
