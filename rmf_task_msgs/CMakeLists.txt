@@ -44,6 +44,9 @@ set(msg_files
   "msg/DispatchCommand.msg"
   "msg/DispatchAck.msg"
   "msg/Priority.msg"
+  "msg/LogEntry.msg"
+  "msg/DynamicEventDescription.msg"
+  "msg/DynamicEventStatus.msg"
 )
 
 set(srv_files
@@ -54,9 +57,14 @@ set(srv_files
   "srv/GetDispatchStates.srv"
 )
 
+set(action_files
+  "action/DynamicEvent.action"
+)
+
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${srv_files}
   ${msg_files}
+  ${action_files}
   DEPENDENCIES
     builtin_interfaces
     rmf_dispenser_msgs
