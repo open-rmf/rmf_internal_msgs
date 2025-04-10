@@ -46,6 +46,7 @@ set(msg_files
   "msg/DeliveryAlertAction.msg"
   "msg/DeliveryAlertCategory.msg"
   "msg/DeliveryAlertTier.msg"
+  "msg/EmergencySignal.msg"
 )
 
 set(srv_files
