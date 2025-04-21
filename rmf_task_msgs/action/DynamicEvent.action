@@ -48,6 +48,20 @@ string description
 # finished its cancellation.
 uint64 id
 
+# If this value is greater than 0.0, then the robot will enter a "stubborn" mode
+# after the event is finished where it broadcasts its position to the traffic
+# schedule and behaves like a stubborn negotiator, forcing other robots to wait
+# on it or reroute.
+#
+# The value itself represents the length of time in seconds that the robot will
+# claim it is remaining at its current location. This signal will be refreshed
+# every 1.0s. Values less than 2.0 will be treated as 2.0 with a warning because
+# a stubborn period less than would cause excessive negotiation instability.
+#
+# If you can anticipate how long it will be between this command finishing and
+# the next starting, that time period would be a good value to use here.
+float32 stubborn_period
+
 ---
 
 # An error string that will describe a critical issue that occurred while attempting
