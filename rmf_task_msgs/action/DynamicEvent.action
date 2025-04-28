@@ -1,0 +1,95 @@
+# Action topic:
+# rmf/dynamic_event/command/<fleet_name>/<robot_name>
+
+# The sequence number for this dynamic event. This is unique for each run of a
+# dynamic event within one robot. It must match the dynamic_event_seq field in
+# the DynamicEventDescription which describes the event that is being executed.
+#
+# Each new run of a dynamic event for a robot will increment this value until it
+# reaches integer overflow and goes back to 0.
+uint32 dynamic_event_seq
+
+# What kind of event is this action commanding. Must be one of the following:
+# * EVENT_TYPE_NEXT
+# * EVENT_TYPE_CANCEL
+# * EVENT_TYPE_FINISHED
+#
+# Any other value will be rejected by the action server.
+uint32 event_type
+
+# Default value for event_type, indicates that the message was default-initialized.
+# This will immediately be rejected by the action server.
+uint32 EVENT_TYPE_UNINITIALIZED=0
+
+# Indicates that this request describes the next event for the phase to execute.
+uint32 EVENT_TYPE_NEXT=1
+
+# Cancel the currently active event. The id field must match the ID of the ID of
+# the currently active event.
+uint32 EVENT_TYPE_CANCEL=2
+
+# Indicates that the dynamic events are finished. After this, no more event commands can
+# be sent until a new Dynamic Event begins.
+uint32 EVENT_TYPE_FINISHED=3
+
+# Used to specify the category of the event when event_type is EVENT_TYPE_NEXT.
+# Otherwise this is unused.
+string category
+
+# Used to describe the event when event_type is EVENT_TYPE_NEXT.
+# Otherwise this is unused.
+string description
+
+# When using EVENT_TYPE_NEXT, this will be the ID for the newly created event.
+#
+# When using EVENT_TYPE_CANCEL, this indicates the ID of the event that is supposed to
+# be cancelled. If it does not match the currently active event ID, then the request will be
+# rejected. If it does match, then the action response will be sent once the event has
+# finished its cancellation.
+uint64 id
+
+# If this value is greater than 0.0, then the robot will enter a "stubborn" mode
+# after the event is finished where it broadcasts its position to the traffic
+# schedule and behaves like a stubborn negotiator, forcing other robots to wait
+# on it or reroute.
+#
+# The value itself represents the length of time in seconds that the robot will
+# claim it is remaining at its current location. This signal will be refreshed
+# every 1.0s. Values less than 2.0 will be treated as 2.0 with a warning because
+# a stubborn period less than would cause excessive negotiation instability.
+#
+# If you can anticipate how long it will be between this command finishing and
+# the next starting, that time period would be a good value to use here.
+float32 stubborn_period
+
+---
+
+# An error string that will describe a critical issue that occurred while attempting
+# to begin execution of the action, such as:
+# * a race condition occurs where multiple action requests are submitted simultaneously
+#   for the same robot and both are accepted before either begins
+# * a request is sent while the fleet adapter is shutting down
+# * an error occurs while generating the
+#
+# If this string is empty then no error occurred while beginning execution.
+# If this string is non-empty then the remaining fields in this message will be
+# default-initialized.
+string execution_failure
+
+# The last status of the action before it was finished
+string status
+
+# The ID of the event which has finished
+uint64 id
+
+---
+
+# Current status of the action. This string will match one of the values in the "status" schema:
+# https://github.com/open-rmf/rmf_api_msgs/rmf_api_msgs/schemas/task_state.json
+string status
+
+# The ID of the currently active event.
+uint64 id
+
+# Log messages that have occurred since the last feedback message.
+rmf_task_msgs/LogEntry[] logs
