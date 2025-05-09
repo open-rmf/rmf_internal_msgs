@@ -2,8 +2,8 @@
 Changelog for package rmf_fleet_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+3.5.0 (2025-05-09)
+------------------
 * Creation of EmergencySignal.msg (`#82 <https://github.com/open-rmf/rmf_internal_msgs/issues/82>`_)
 * Contributors: Jun, Michael X. Grey
 
