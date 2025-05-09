@@ -2,6 +2,12 @@
 Changelog for package rmf_task_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Introduce messages for dynamic events (`#81 <https://github.com/open-rmf/rmf_internal_msgs/issues/81>`_)
+* Add dry_run field to BidNotice (`#80 <https://github.com/open-rmf/rmf_internal_msgs/issues/80>`_)
+* Contributors: Grey, yadunund
+
 3.4.1 (2024-11-13)
 ------------------
 * New alert messages (`#71 <https://github.com/open-rmf/rmf_internal_msgs/issues/71>`_)
