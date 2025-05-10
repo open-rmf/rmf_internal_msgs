@@ -2,6 +2,9 @@
 Changelog for package rmf_reservation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+3.5.0 (2025-05-09)
+------------------
+
 3.4.1 (2024-11-13)
 ------------------
 * Messages for proto-reservation system  (`#64 <https://github.com/open-rmf/rmf_internal_msgs/issues/64>`_)
