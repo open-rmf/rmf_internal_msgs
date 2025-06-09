@@ -2,6 +2,9 @@
 Changelog for package rmf_task_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 3.5.0 (2025-05-09)
 ------------------
 * Introduce messages for dynamic events (`#81 <https://github.com/open-rmf/rmf_internal_msgs/issues/81>`_)

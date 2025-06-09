@@ -2,6 +2,9 @@
 Changelog for package rmf_workcell_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 3.5.0 (2025-05-09)
 ------------------
 
