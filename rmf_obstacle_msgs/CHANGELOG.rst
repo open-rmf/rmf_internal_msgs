@@ -2,6 +2,9 @@
 Changelog for package rmf_obstacle_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 3.6.0 (2025-06-09)
 ------------------
 
