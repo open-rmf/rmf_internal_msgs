@@ -2,8 +2,8 @@
 Changelog for package rmf_traffic_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-3.6.1 (2025-07-21)
-------------------
+Forthcoming
+-----------
 * Clear geometry_msgs dependencies and remove Pose2D (`#88 <https://github.com/open-rmf/rmf_internal_msgs/issues/88>`_)
 * Contributors: Luca Della Vedova
 
