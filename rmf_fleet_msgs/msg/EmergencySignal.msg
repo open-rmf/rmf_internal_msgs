@@ -9,3 +9,7 @@ string[] fleet_names
 # True if the relevant fleets should be carrying out their emergency behavior.
 # False if the relevant fleets should carry about their normal business.
 bool is_emergency
+
+# If this list is completely empty, then all robots within the fleets will respond 
+# to the emergency signal.
+string[] zone_names
