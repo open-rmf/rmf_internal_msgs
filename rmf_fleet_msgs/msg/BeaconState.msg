@@ -1,7 +1,8 @@
 # This message defines data from a robot beacon
 
-string id 
+string id
 bool online
 string category
 bool activated
 string level
+uint8 color
