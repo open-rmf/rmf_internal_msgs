@@ -42,6 +42,7 @@ set(msg_files
   "msg/MutexGroupRequest.msg"
   "msg/MutexGroupStates.msg"
   "msg/BeaconState.msg"
+  "msg/BeaconRequest.msg"
   "msg/DeliveryAlert.msg"
   "msg/DeliveryAlertAction.msg"
   "msg/DeliveryAlertCategory.msg"
