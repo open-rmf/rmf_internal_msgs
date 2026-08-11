@@ -2,8 +2,8 @@
 Changelog for package rmf_fleet_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+4.0.1 (2026-08-11)
+------------------
 * feat: add RobotCollision.msg to rmf_fleet_msgs (`#90 <https://github.com/open-rmf/rmf_internal_msgs/issues/90>`_)
 * Contributors: Aditya Pachauri
 
