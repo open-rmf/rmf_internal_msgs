@@ -2,6 +2,9 @@
 Changelog for package rmf_reservation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 4.1.0 (2026-08-12)
 ------------------
 * Update maintainer email (`#92 <https://github.com/open-rmf/rmf_internal_msgs/issues/92>`_)

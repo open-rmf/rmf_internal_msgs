@@ -2,6 +2,9 @@
 Changelog for package rmf_scheduler_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 4.1.0 (2026-08-12)
 ------------------
 
