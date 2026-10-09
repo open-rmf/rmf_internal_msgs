@@ -14,9 +14,8 @@ string zone_name
 # Assigned waypoint name for the booking.
 string assigned_waypoint_name
 
-# Optional desired orientation at the assigned waypoint.
-bool has_orientation
-float64 orientation
+# Orientations the robot may park at, in radians. Empty means any.
+float64[] orientations
 
 # Echoes the request_id of the original ZoneRequest.
 string request_id

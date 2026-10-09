@@ -27,9 +27,9 @@ uint8 EXIT=3
 uint8 HANDBACK=4
 uint8 request_type
 
-# Optional hints carried from the task description (group preferences,
-# orientation hint, preferred internal vertices).
-ZoneModifiers modifiers
+# Ordered preferences carried from the task description, most preferred
+# first. Empty means no preference.
+ZoneHint[] hints
 
 # The vertex being handed back, for request_type HANDBACK. Empty otherwise.
 string released_waypoint

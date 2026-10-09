@@ -23,7 +23,7 @@ set(msg_files
   "msg/ZoneEntryContext.msg"
   "msg/ZoneManualRelease.msg"
   "msg/ZoneState.msg"
-  "msg/ZoneModifiers.msg"
+  "msg/ZoneHint.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
