@@ -34,6 +34,7 @@ jobs:
         rmf_workcell_msgs
         rmf_task_ros2
         rmf_traffic_ros2
+        rmf_zone_msgs
         rmf_fleet_adapter
       ros-distribution: ${{ inputs.ros_distribution || '' }}
       repos-branch-override: ${{ inputs.repos_branch_override || 'main' }}
