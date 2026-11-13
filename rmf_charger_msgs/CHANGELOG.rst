@@ -2,8 +2,8 @@
 Changelog for package rmf_charger_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+4.3.0 (2026-11-13)
+------------------
 * bump cmake version (`#100 <https://github.com/open-rmf/rmf_internal_msgs/issues/100>`_)
 * Contributors: Aaron Chong
 

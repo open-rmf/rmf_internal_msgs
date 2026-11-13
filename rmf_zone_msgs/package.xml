@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>rmf_zone_msgs</name>
-  <version>4.2.0</version>
+  <version>4.3.0</version>
   <description>A package containing messages used to coordinate zone bookings between robots and the zone manager in rmf_core</description>
   <maintainer email="keai_jiang_chee@cgh.com.sg">KJ Chee</maintainer>
   <license>Apache License 2.0</license>
